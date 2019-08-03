@@ -1,7 +1,9 @@
 // Mixins Here
-.flex(@justify, @align, @direction) {
+.flex(@justify) {
   display: flex;
   justify-content: @justify;
-  align-items: @align;
-  flex-direction: @direction;
+}
+
+.fsize (@rem) {
+  font-size: @rem;
 }

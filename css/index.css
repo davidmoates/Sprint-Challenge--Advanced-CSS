@@ -160,6 +160,17 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.spaceNAV {
+  display: flex;
+  justify-content: center;
+}
+.spaceNAV a {
+  padding: 2%;
+  text-decoration: none;
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+  font-size: 1.6rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -169,6 +180,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.title h1 {
+  text-align: center;
+  font-size: 3.6rem;
+}
+.headerIMG {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.headerIMG img {
+  width: 96%;
 }
 .home .intro h2 {
   padding: 15px;
