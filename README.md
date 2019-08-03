@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+  Adaptive layout: hard coded widths for each media queries, borrows from speed of a fixed layout, but accommodates different devices at specific breakpoint
+
+  Responsive layout: longer to code geared for long term projects, used responsive units (rem, em, %)
+
 2. Describe what it means to be mobile first vs desktop first.
+
+  Mobile first is designing a mobile size layout and building up from there.
+
+  Desktop first is designing a desktop size layout and building down from the top.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+  font-size: 62.5% is a great trick to use because then rem's are easy to use. ie. 18px = 1.8rem.
+
+  Relative length units is what rem means.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+  It is a way to write css faster and more efficiently.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+  Using mixins with parameters. I still don't really understand how escaping works completely. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
