@@ -168,8 +168,8 @@ p {
 .spaceNAV a {
   padding: 2%;
   text-decoration: none;
-  font-family: 'Ubuntu', sans-serif;
   color: #23293B;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.8rem;
 }
 footer {
@@ -184,6 +184,7 @@ footer {
 }
 .title h1 {
   text-align: center;
+  font-family: 'Russo One', sans-serif;
   font-size: 3.6rem;
 }
 .headerIMG {
@@ -235,6 +236,21 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn button {
+  background-color: #23293B;
+  color: white;
+  border-radius: 5px;
+  width: 9rem;
+  height: 3rem;
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
+}
+.home .walk .walk-text .btn button:hover {
+  background-color: #dadee9;
+  color: #23293B;
+  border: 1px solid #23293B;
 }
 .home .walk .walk-img {
   width: 46%;

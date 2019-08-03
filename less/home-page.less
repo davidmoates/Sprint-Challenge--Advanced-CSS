@@ -1,7 +1,7 @@
 .title {
   h1 {
     text-align: center;
-    .fsize(3.6rem);
+    .font(@hfont, 3.6rem);
   }
 }
 
@@ -71,6 +71,20 @@
       }
 
       .btn {
+        button {
+          &:hover {
+            background-color: lighten(@ebony-clay, 70%);
+            color: @ebony-clay;
+            border: 1px solid @ebony-clay;
+
+          }
+          .button(@ebony-clay, white, 5px);
+          width: 9.0rem;
+          height: 3.0rem;
+          border: none;
+          .font(@font, 1.6rem);
+        }
+
       }
     }
 
