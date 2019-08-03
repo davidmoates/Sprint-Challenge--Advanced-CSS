@@ -161,15 +161,16 @@ p {
   margin: 0 auto;
 }
 .spaceNAV {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 .spaceNAV a {
   padding: 2%;
   text-decoration: none;
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #23293B;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 footer {
   color: #22283B;
